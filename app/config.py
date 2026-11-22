@@ -6,7 +6,7 @@ TITLE = "馆藏媒介验收站"
 PROJECT = "gb-0753"
 RULESET = "gb-0753/1.0"
 SIGNATURE_TITLE = "复核封存"
-SAMPLES = {"dirty": "现场样例", "clean": "干净样例"}
+SAMPLES = {"dirty": "现场样例", "clean": "干净样例", "shared": "共享样例"}
 MAX_ROWS = 2500
 
 

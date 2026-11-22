@@ -1,4 +1,4 @@
-import {badge, compare, grid, list, matrix, safe, tiers} from './cells.js';
+import {badge, compare, grid, list, matrix, names, safe, tiers} from './cells.js';
 
 const $ = selector => document.querySelector(selector);
 const modules = {batches:'馆藏批次',manifest:'固化清单',mapping:'路由映射',fixity:'字节验签',drift:'副本漂移',reconcile:'迁移勾稽',archive:'复核封存'};
@@ -16,7 +16,11 @@ function inspect(row) {
   if (section === 'batches') return grid(['规则版本','生效','原行'],result.batches.rows.map(item=>[item.version,item.active?'是':'否',item.line]));
   if (section === 'reconcile') {
     const total = result.reconcile.totals;
-    return `<div class="stamp"><strong>${total.originals} = ${total.verified} + ${total.pending} + ${total.conflict}</strong>${list([['已验副本',total.verified_copies],['可核字节',total.expected_bytes],['归类差异',total.difference]])}</div>`;
+    const stamp = `<div class="stamp"><strong>${total.originals} = ${total.verified} + ${total.pending} + ${total.conflict}</strong>${list([['已验副本',total.verified_copies],['可核字节',total.expected_bytes],['归类差异',total.difference]])}</div>`;
+    const groups = result.drift.sharing ?? [];
+    if (!groups.length) return stamp;
+    return stamp+`<h3>共享副本组 · 留存一份物理占用</h3>`+grid(['共享组','共用馆号','留存馆号','阅览副本','冷存副本','归类'],
+      groups.map(group=>[group.key,group.members.join('、'),group.keeper,group.copies.online,group.copies.vault,names[group.state]]));
   }
   if (!row) return '<p class="empty">选中原件查看证据。</p>';
   const head = itemHeader(row);
@@ -28,7 +32,7 @@ function inspect(row) {
 function paint() {
   const {result,section} = data;
   const summary = result.reconcile.totals;
-  const rows = result.drift.rows.filter(row=>data.filter==='all'||row.state===data.filter);
+  const rows = result.drift.rows.filter(row=>data.filter==='all'||(data.filter==='shared'?Boolean(row.shared):row.state===data.filter));
   const current = rows.find(row=>row.object_id===data.object) ?? rows[0];
   data.object=current?.object_id;
   $('#metrics').innerHTML=[['原件',summary.originals,''],['两副本齐全',summary.verified,'verified'],['待补',summary.pending,'pending'],['冲突',summary.conflict,'conflict'],['已验副本',summary.verified_copies,'']].map(([label,value,className])=>`<div class="metric ${className}"><span>${label}</span><strong>${value}</strong></div>`).join('');

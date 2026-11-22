@@ -1,3 +1,4 @@
+from app.codec import digest
 from app.records import group_by, integer, issue, report, token
 from app.source import lines
 from .paths import checksum, normalize
@@ -38,9 +39,24 @@ def ingest(source, _):
     for row in candidates:
         if row['path'] is not None:
             paths.setdefault(row['path'], set()).add(row['object_id'])
-    overlaps = {ident for ids in paths.values() if len(ids) > 1 for ident in ids}
+    by_id = {row['object_id']: row for row in objects}
     for row in objects:
-        if row['object_id'] in overlaps:
+        row['shared'] = None
+    for path, ids in paths.items():
+        if len(ids) < 2:
+            continue
+        members = [by_id[ident] for ident in sorted(ids)]
+        signatures = {(row['sha256'], row['bytes']) for row in members}
+        if len(signatures) == 1 and not any(row['conflict'] for row in members):
+            key = digest({'path': path, 'sha256': members[0]['sha256'],
+                          'bytes': members[0]['bytes']})[:12]
+            keeper = members[0]['object_id']
+            for row in members:
+                row['shared'] = {'key': key, 'path': path, 'keeper': keeper,
+                                 'members': [item['object_id'] for item in members],
+                                 'holds_copy': row['object_id'] == keeper}
+            continue
+        for row in members:
             row['conflict'] = True
-            problems.append(issue(row, 'CANONICAL_COLLISION', 'Unicode 归并后多份原件占同路径'))
+            problems.append(issue(row, 'CANONICAL_COLLISION', '归并后路径相同但内容不同，不予合并'))
     return report(objects, problems, input_count=len(source['objects']))

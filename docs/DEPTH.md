@@ -33,3 +33,4 @@
 | TRAP-23 | 版本恰好交接 | 同时激活两版 | 使用半开区间 | `app/modules/m1_batches/service.py` | `tests/test_batches.py::test_half_open_boundary_selects_new_release` |
 | TRAP-25 | 两版有效期重叠 | 按文件次序选版本 | 拒绝选择并报告两版 | `app/modules/m1_batches/service.py` | `tests/test_batches.py::test_catalog_overlap_has_no_winner` |
 | TRAP-26 | 提交旧摘要 | 签署错误证据 | 返回冲突 | `app/modules/m7_archive/service.py` | `tests/test_archive.py::test_signature_requires_current_digest` |
+| TRAP-27 | 同内容多馆号归并同一路径 | 全部判冲突或静默合并丢号 | 确认共享副本组并保留全部馆号 | `app/modules/m2_manifest/service.py` | `tests/test_sharing.py::test_same_content_same_path_forms_share_group` |

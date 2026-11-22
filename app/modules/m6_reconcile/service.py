@@ -9,6 +9,10 @@ def reconcile(_source, sections):
     exceptions = [problem for section in ('batches','manifest','mapping','fixity','drift')
                   for problem in sections[section]['issues']]
     matched = bool(rows) and not totals['difference'] and identity
+    sharing = sections['drift'].get('sharing', [])
+    summary = {'groups': len(sharing), 'objects': sum(len(group['members']) for group in sharing)}
+    for state in ('verified', 'pending', 'conflict'):
+        summary[state] = sum(group['state'] == state for group in sharing)
     return report([{'object_id':row['object_id'],'state':row['state'],'path':row['path'],
                     'source_lines':row['source_lines']} for row in rows], exceptions,
-                  totals=totals, status='MATCHED' if matched else 'CHECK_REQUIRED')
+                  totals=totals, status='MATCHED' if matched else 'CHECK_REQUIRED', sharing=summary)

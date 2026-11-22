@@ -8,7 +8,7 @@
 docker compose up --build
 ```
 
-打开 `http://localhost:18447`。应用内置干净和现场样例，可导入同结构 JSON。运行验收后，在复核封存面板复算、签署或下载冻结证据。命名卷保存运行和签署记录。API 说明见 `/docs`。
+打开 `http://localhost:18447`。应用内置干净、现场和共享样例，可导入同结构 JSON。运行验收后，在复核封存面板复算、签署或下载冻结证据。命名卷保存运行和签署记录。API 说明见 `/docs`。
 
 宿主执行 `pip install -r requirements.txt` 后可运行 `uvicorn app.main:app --port 18447` 或 `pytest -q`。容器测试执行 `docker compose exec -T app pytest -q`。
 

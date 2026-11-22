@@ -31,4 +31,26 @@ def compare_copies(_source, sections):
     for key, row in present.items():
         if key not in expected:
             problems.append(issue(row, 'ORPHAN_REPLICA', '副本未归属到当前合法映射'))
-    return report(output, problems)
+    return report(output, problems, sharing=sharing_index(output))
+
+
+def sharing_index(rows):
+    groups = {}
+    for row in rows:
+        shared = row['shared']
+        if not shared:
+            continue
+        group = groups.setdefault(shared['key'], {
+            'key': shared['key'], 'members': list(shared['members']), 'keeper': shared['keeper'],
+            'sha256': row['sha256'], 'bytes': row['bytes'], 'copies': {}, 'states': []})
+        group['states'].append(row['state'])
+        for copy in row['copies']:
+            if copy['path'] is not None:
+                group['copies'][copy['tier']] = copy['path']
+    sharing = []
+    for key in sorted(groups, key=lambda item: groups[item]['members'][0]):
+        group = groups.pop(key)
+        states = group.pop('states')
+        group['state'] = 'conflict' if 'conflict' in states else 'pending' if 'pending' in states else 'verified'
+        sharing.append(group)
+    return sharing

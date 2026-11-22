@@ -1,0 +1,109 @@
+{
+  "batch": "北港馆藏-1121-共享",
+  "at": "2026-11-20T16:30:00+08:00",
+  "catalogs": [
+    {
+      "version": "馆规-02",
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-12-01T00:00:00+08:00",
+      "tiers": [
+        "online",
+        "vault"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "0101",
+      "path": "照片/灯塔/白光.tif",
+      "sha256": "14a8b85d3f043f2dd8f4ea580608950d6c3d408b4a65535b0bf9c866445b2ac6",
+      "bytes": 234
+    },
+    {
+      "object_id": "0102",
+      "path": "照片\\灯塔/./白光.tif",
+      "sha256": "14a8b85d3f043f2dd8f4ea580608950d6c3d408b4a65535b0bf9c866445b2ac6",
+      "bytes": 234
+    },
+    {
+      "object_id": "0103",
+      "path": "照片/灯塔/红光.tif",
+      "sha256": "9adbd78b9886fb5c86339aa915c373dd5c6ea8391077199d64155c4efadcffc2",
+      "bytes": 108
+    },
+    {
+      "object_id": "0104",
+      "path": "照片/灯塔/红光.tif",
+      "sha256": "cd5e49bad80caf72df0357fde60038e2112efffc9a170572a41c8015a6cb95e2",
+      "bytes": 147
+    },
+    {
+      "object_id": "0105",
+      "path": "文书/登记/潮汐表.pdf",
+      "sha256": "b67da812d7f0663ebf4dd14b395898cc09122bdf5f89e322b5bc9ea79c33d20e",
+      "bytes": 210
+    },
+    {
+      "object_id": "0106",
+      "path": "文书/登记/潮汐表.pdf",
+      "sha256": "b67da812d7f0663ebf4dd14b395898cc09122bdf5f89e322b5bc9ea79c33d20e",
+      "bytes": 210
+    },
+    {
+      "object_id": "0107",
+      "path": "声音/雾号/低音.wav",
+      "sha256": "51144e84f12150934a5db2f08ccfec9394f1fefa4c4f365accdd5e97349c3ba2",
+      "bytes": 156
+    }
+  ],
+  "routes": [
+    {
+      "version": "馆规-02",
+      "tier": "online",
+      "from_prefix": "",
+      "to_prefix": "阅览池/北港",
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-12-01T00:00:00+08:00"
+    },
+    {
+      "version": "馆规-02",
+      "tier": "vault",
+      "from_prefix": "",
+      "to_prefix": "永久库/磁带-02",
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-12-01T00:00:00+08:00"
+    }
+  ],
+  "replicas": [
+    {
+      "tier": "online",
+      "path": "阅览池/北港/照片/灯塔/白光.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/灯塔/白光.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDnmb3lhYnlupXniYcK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/登记/潮汐表.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDmva7msZDnmbvorrDooagK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDmva7msZDnmbvorrDooagK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDmva7msZDnmbvorrDooagK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDmva7msZDnmbvorrDooagK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDmva7msZDnmbvorrDooagK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/声音/雾号/低音.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/声音/雾号/低音.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK5YyX5riv6aaG6JePIOWFseS6q+agt+S+iyDkvY7pn7Ppm77lj7cK"
+    }
+  ]
+}

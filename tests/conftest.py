@@ -23,6 +23,16 @@ def clean():
 
 
 @pytest.fixture
+def shared():
+    return load_sample("shared")
+
+
+@pytest.fixture
+def shared_result(shared):
+    return evaluate(shared)
+
+
+@pytest.fixture
 def dirty_result(dirty):
     return evaluate(dirty)
 
