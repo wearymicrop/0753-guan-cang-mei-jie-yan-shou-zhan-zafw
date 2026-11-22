@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{ title }}</title>
+<link rel="stylesheet" href="/static/theme.css"><link rel="stylesheet" href="/static/matrix.css"><script type="module" src="/static/station.js"></script></head>
+<body>
+<div class="terminal">
+<aside class="binder">
+  <div class="brand"><span aria-hidden="true" class="overlay-mark"></span><div><strong>馆藏媒介验收站</strong><small>北港馆藏 / 迁移验收</small></div></div>
+  <nav aria-label="验收工作区">
+    <a href="#batches">馆藏批次</a><a href="#manifest">固化清单</a><a href="#mapping">路由映射</a><a href="#fixity">字节验签</a>
+    <a href="#drift" aria-current="page">副本漂移</a><a href="#reconcile">迁移勾稽</a><a href="#archive">复核封存</a>
+  </nav>
+  <p class="binder-code">{{ project }}<br>馆藏数字保全</p>
+</aside>
+<div class="console">
+  <header><div class="titlebox"><span id="batch-name"></span><h1>馆藏迁移矩阵</h1></div>
+  <form id="controls"><label>样例 <select id="sample">{% for value,label in samples.items() %}<option value="{{ value }}"{% if value == sample %} selected{% endif %}>{{ label }}</option>{% endfor %}</select></label>
+  <button type="button" id="open-source">导入清单</button><input type="file" id="source-file" accept=".json,application/json" hidden><button class="fill">运行验收</button></form></header>
+  <main>
+    <div class="kpis" id="metrics" aria-label="副本验收汇总"></div>
+    <div class="deck">
+      <section class="panel index"><div class="panel-heading"><h2>原件 × 副本层</h2><label>筛选 <select id="filter"><option value="all">全部状态</option><option value="verified">两副本齐全</option><option value="pending">待补</option><option value="conflict">冲突</option></select></label></div><div class="scroller" id="matrix"></div><div id="matrix-count"></div></section>
+      <section class="panel viewer"><div class="panel-heading"><h2 id="section-title">副本漂移</h2><code id="policy"></code></div><div id="inspector"></div></section>
+      <section class="panel issues"><div class="panel-heading"><h2>差异索引</h2><label><input id="selected-only" type="checkbox"> 仅已选原件关联记录</label></div><div id="exceptions" class="scroller"></div></section>
+    </div>
+  </main>
+  <footer><strong id="balance"></strong><span id="feedback" role="status"></span><time id="batch-time"></time></footer>
+</div>
+</div>
+<script id="initial" type="application/json">{{ initial | tojson }}</script>
+</body>
+</html>

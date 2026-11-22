@@ -1,0 +1,502 @@
+{
+  "batch": "北港馆藏-1120-盲验",
+  "at": "2026-11-20T16:30:00+08:00",
+  "catalogs": [
+    {
+      "version": "馆规-02",
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-12-01T00:00:00+08:00",
+      "tiers": [
+        "online",
+        "vault"
+      ]
+    },
+    {
+      "version": "馆规-01",
+      "start": "2026-10-01T00:00:00+08:00",
+      "end": "2026-11-01T00:00:00+08:00",
+      "tiers": [
+        "online",
+        "vault"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "object_id": "0001",
+      "path": "照片/冬港/Café-底片.tif",
+      "sha256": "d6635cf89dc0e4baa2fc1029e527fec35b2782b78a481bf2455dc8682d1fc945",
+      "bytes": 141
+    },
+    {
+      "object_id": "0002",
+      "path": "照片/冬港/14号栈桥.tif",
+      "sha256": "8b0185afc928d9d3fb9a573d20c334b9853a2b0ac615dce7328c9795e2e773bb",
+      "bytes": 184
+    },
+    {
+      "object_id": "0003",
+      "path": "照片/冬港/海雾测点.tif",
+      "sha256": "a87c84c8a0927650a0bf97f20d395f99e3d713f4256e1c8912ebe7481cce8256",
+      "bytes": 235
+    },
+    {
+      "object_id": "0004",
+      "path": "声音/验潮/旧码头-01.wav",
+      "sha256": "37c91c7819552372574ee2302366e16118442234bf2f4e147b9f0d883c0ac001",
+      "bytes": 94
+    },
+    {
+      "object_id": "0005",
+      "path": "文书/船政/航标登记.pdf",
+      "sha256": "a36d3d7f95b696cf20812713c9d4aca4a0b715ad1683cc4a54a4d6cf2666f36f",
+      "bytes": 141
+    },
+    {
+      "object_id": "0006",
+      "path": "文书/船政/冬季保养单.pdf",
+      "sha256": "19d56c3734963ae195abca674381e14374368aace15e5173d6cde6310f036a08",
+      "bytes": 200
+    },
+    {
+      "object_id": "0007",
+      "path": "文书/船政/黑白编号簿.pdf",
+      "sha256": "89be2dac0b81905ac6d228b3c69aa4a321645c430b4648b3eaf577b769e6bc0c",
+      "bytes": 250
+    },
+    {
+      "object_id": "0008",
+      "path": "声音/验潮/声场记录.wav",
+      "sha256": "a04643eddddf8879c7b640eb740690862c8d8b4f561c714bd3c08441c41635d7",
+      "bytes": 94
+    },
+    {
+      "object_id": "0009",
+      "path": "照片/内湾/仓门.tif",
+      "sha256": "2947413f3ed36411d7ba44a3243b40bf8dba75f77a701b44d7b3a31740a6083c",
+      "bytes": 123
+    },
+    {
+      "object_id": "0010",
+      "path": "照片/内湾/旧路灯.tif",
+      "sha256": "532475263f9fb7f36973013dddde340688ac758961617619b5934f55ddb318ec",
+      "bytes": 176
+    },
+    {
+      "object_id": "0011",
+      "path": "图纸/风亭/机房侧视.tif",
+      "sha256": "4cb4b3aa1a71b13f3c2f40505dae791a28c05c8a7f97a6459d934558d6177455",
+      "bytes": 235
+    },
+    {
+      "object_id": "0012",
+      "path": "图纸/风亭/潮位计拆解.tif",
+      "sha256": "2e970612d16e2af60ee2dabe2e602145ddd8c092f741dd4a67ef4cefb70a4596",
+      "bytes": 100
+    },
+    {
+      "object_id": "0013",
+      "path": "文书/目录/馆号索引.pdf",
+      "sha256": "6412b0e4ff0a0b41b8562eeca9bc903efa7b571a82cc6acf30dd931e07152610",
+      "bytes": 141
+    },
+    {
+      "object_id": "0014",
+      "path": "声音/旧航道/夜间信标.wav",
+      "sha256": "fa31013967b183863f2a64002f744df539ed9a799737b73f0ae0733860c45b65",
+      "bytes": 200
+    },
+    {
+      "object_id": "0015",
+      "path": "声音/旧航道/雾笛.wav",
+      "sha256": "0ff8b35ecc8796f4209b2999afe7d4e5b41cf55516f7037d3174f8e4736f3446",
+      "bytes": 220
+    },
+    {
+      "object_id": "0016",
+      "path": "照片/内湾/干船坞.tif",
+      "sha256": "8ba81e26c8e582526b2673284d93f57e039fb9e0e1ddad7b108954d31280a667",
+      "bytes": 88
+    },
+    {
+      "object_id": "0017",
+      "path": "照片/冬港/绞盘.tif",
+      "sha256": "e58a934338697fca5cd091b33c326471596607dde5cd629647ccc41a3b51e3a9",
+      "bytes": 123
+    },
+    {
+      "object_id": "0018",
+      "path": "文书/目录/出借簿.pdf",
+      "sha256": "33ee8f13d3835ea1dcb6092d5a77883df06f348d4f95d7e8ce0e88fa93375e5e",
+      "bytes": 176
+    },
+    {
+      "object_id": "0019",
+      "path": "图纸/风亭/潮门分层.tif",
+      "sha256": "1c7937209dcfa366ef293d14dee835524038723c13b8c8a1583b5c19c134fbcf",
+      "bytes": 235
+    },
+    {
+      "object_id": "0020",
+      "path": "文书/船政/月度清册.pdf",
+      "sha256": "d1f64f96fca0c32d5f558a653e773689e47fc599c4db92f041e8a38196808372",
+      "bytes": 94
+    },
+    {
+      "object_id": "0021",
+      "path": "声音/旧航道/交接记录.wav",
+      "sha256": "f12e234549a85d87ef4000059c1472f90d1fb46873ae3b6612a2ab75ee0c23aa",
+      "bytes": 150
+    },
+    {
+      "object_id": "0022",
+      "path": "图纸/风亭/港池平面.tif",
+      "sha256": "1f6f84060a1b2f71d60229959213ca0137c7d344e92a56b1eaeaa3cb644140f1",
+      "bytes": 188
+    },
+    {
+      "object_id": "0023",
+      "path": "文书/目录/入馆核验.pdf",
+      "sha256": "f44dc0e1ca243e1dffce9afba30fe5e5a558f64dde59cb75c972134dac43956f",
+      "bytes": 235
+    },
+    {
+      "object_id": "0024",
+      "path": "照片/冬港/救生梯.tif",
+      "sha256": "e0db8adbf95ab6041995ad9fb46cef18bc87a95c1a3e9971a979f9dda99aa1d3",
+      "bytes": 88
+    }
+  ],
+  "routes": [
+    {
+      "version": "馆规-02",
+      "tier": "online",
+      "from_prefix": "",
+      "to_prefix": "阅览池/北港",
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-12-01T00:00:00+08:00"
+    },
+    {
+      "version": "馆规-02",
+      "tier": "vault",
+      "from_prefix": "",
+      "to_prefix": "永久库/磁带-02",
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-12-01T00:00:00+08:00"
+    },
+    {
+      "version": "馆规-02",
+      "tier": "online",
+      "from_prefix": "照片/冬港",
+      "to_prefix": "阅览池/冬港底片",
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-12-01T00:00:00+08:00"
+    },
+    {
+      "version": "馆规-01",
+      "tier": "online",
+      "from_prefix": "",
+      "to_prefix": "旧阅览",
+      "start": "2026-10-01T00:00:00+08:00",
+      "end": "2026-11-01T00:00:00+08:00"
+    },
+    {
+      "version": "馆规-01",
+      "tier": "vault",
+      "from_prefix": "",
+      "to_prefix": "旧冷存",
+      "start": "2026-10-01T00:00:00+08:00",
+      "end": "2026-11-01T00:00:00+08:00"
+    }
+  ],
+  "replicas": [
+    {
+      "tier": "online",
+      "path": "阅览池/冬港底片/Café-底片.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDAxCueFp+eJhy/lhqzmuK8vQ2Fmw6kt5bqV54mHLnRpZgrljJfmuK/ppobol48gMDEK54Wn54mHL+WGrOa4ry9DYWbDqS3lupXniYcudGlmCuWMl+a4r+mmhuiXjyAwMQrnhafniYcv5Yas5rivL0NhZsOpLeW6leeJhy50aWYK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/冬港/Café-底片.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDAxCueFp+eJhy/lhqzmuK8vQ2Fmw6kt5bqV54mHLnRpZgrljJfmuK/ppobol48gMDEK54Wn54mHL+WGrOa4ry9DYWbDqS3lupXniYcudGlmCuWMl+a4r+mmhuiXjyAwMQrnhafniYcv5Yas5rivL0NhZsOpLeW6leeJhy50aWYK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/冬港底片/14号栈桥.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDAyCueFp+eJhy/lhqzmuK8vMTTlj7fmoIjmoaUudGlmCuWMl+a4r+mmhuiXjyAwMgrnhafniYcv5Yas5rivLzE05Y+35qCI5qGlLnRpZgrljJfmuK/ppobol48gMDIK54Wn54mHL+WGrOa4ry8xNOWPt+agiOahpS50aWYK5YyX5riv6aaG6JePIDAyCueFp+eJhy/lhqzmuK8vMTTlj7fmoIjmoaUudGlmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/冬港/14号栈桥.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDAyCueFp+eJhy/lhqzmuK8vMTTlj7fmoIjmoaUudGlmCuWMl+a4r+mmhuiXjyAwMgrnhafniYcv5Yas5rivLzE05Y+35qCI5qGlLnRpZgrljJfmuK/ppobol48gMDIK54Wn54mHL+WGrOa4ry8xNOWPt+agiOahpS50aWYK5YyX5riv6aaG6JePIDAyCueFp+eJhy/lhqzmuK8vMTTlj7fmoIjmoaUudGlmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/冬港底片/海雾测点.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDAzCueFp+eJhy/lhqzmuK8v5rW36Zu+5rWL54K5LnRpZgrljJfmuK/ppobol48gMDMK54Wn54mHL+WGrOa4ry/mtbfpm77mtYvngrkudGlmCuWMl+a4r+mmhuiXjyAwMwrnhafniYcv5Yas5rivL+a1t+mbvua1i+eCuS50aWYK5YyX5riv6aaG6JePIDAzCueFp+eJhy/lhqzmuK8v5rW36Zu+5rWL54K5LnRpZgrljJfmuK/ppobol48gMDMK54Wn54mHL+WGrOa4ry/mtbfpm77mtYvngrkudGlmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/冬港/海雾测点.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDAzCueFp+eJhy/lhqzmuK8v5rW36Zu+5rWL54K5LnRpZgrljJfmuK/ppobol48gMDMK54Wn54mHL+WGrOa4ry/mtbfpm77mtYvngrkudGlmCuWMl+a4r+mmhuiXjyAwMwrnhafniYcv5Yas5rivL+a1t+mbvua1i+eCuS50aWYK5YyX5riv6aaG6JePIDAzCueFp+eJhy/lhqzmuK8v5rW36Zu+5rWL54K5LnRpZgrljJfmuK/ppobol48gMDMK54Wn54mHL+WGrOa4ry/mtbfpm77mtYvngrkudGlmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/声音/验潮/旧码头-01.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA0CuWjsOmfsy/pqozmva4v5pen56CB5aS0LTAxLndhdgrljJfmuK/ppobol48gMDQK5aOw6Z+zL+mqjOa9ri/ml6fnoIHlpLQtMDEud2F2Cg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/声音/验潮/旧码头-01.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA0CuWjsOmfsy/pqozmva4v5pen56CB5aS0LTAxLndhdgrljJfmuK/ppobol48gMDQK5aOw6Z+zL+mqjOa9ri/ml6fnoIHlpLQtMDEud2F2Cg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/船政/航标登记.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA1CuaWh+S5pi/oiLnmlL8v6Iiq5qCH55m76K6wLnBkZgrljJfmuK/ppobol48gMDUK5paH5LmmL+iIueaUvy/oiKrmoIfnmbvorrAucGRmCuWMl+a4r+mmhuiXjyAwNQrmlofkuaYv6Ii55pS/L+iIquagh+eZu+iusC5wZGYK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/文书/船政/航标登记.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA1CuaWh+S5pi/oiLnmlL8v6Iiq5qCH55m76K6wLnBkZgrljJfmuK/ppobol48gMDUK5paH5LmmL+iIueaUvy/oiKrmoIfnmbvorrAucGRmCuWMl+a4r+mmhuiXjyAwNQrmlofkuaYv6Ii55pS/L+iIquagh+eZu+iusC5wZGYK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/船政/冬季保养单.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA2CuaWh+S5pi/oiLnmlL8v5Yas5a2j5L+d5YW75Y2VLnBkZgrljJfmuK/ppobol48gMDYK5paH5LmmL+iIueaUvy/lhqzlraPkv53lhbvljZUucGRmCuWMl+a4r+mmhuiXjyAwNgrmlofkuaYv6Ii55pS/L+WGrOWto+S/neWFu+WNlS5wZGYK5YyX5riv6aaG6JePIDA2CuaWh+S5pi/oiLnmlL8v5Yas5a2j5L+d5YW75Y2VLnBkZgo="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/文书/船政/冬季保养单.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA2CuaWh+S5pi/oiLnmlL8v5Yas5a2j5L+d5YW75Y2VLnBkZgrljJfmuK/ppobol48gMDYK5paH5LmmL+iIueaUvy/lhqzlraPkv53lhbvljZUucGRmCuWMl+a4r+mmhuiXjyAwNgrmlofkuaYv6Ii55pS/L+WGrOWto+S/neWFu+WNlS5wZGYK5YyX5riv6aaG6JePIDA2CuaWh+S5pi/oiLnmlL8v5Yas5a2j5L+d5YW75Y2VLnBkZgo="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/船政/黑白编号簿.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA3CuaWh+S5pi/oiLnmlL8v6buR55m957yW5Y+357C/LnBkZgrljJfmuK/ppobol48gMDcK5paH5LmmL+iIueaUvy/pu5Hnmb3nvJblj7fnsL8ucGRmCuWMl+a4r+mmhuiXjyAwNwrmlofkuaYv6Ii55pS/L+m7keeZvee8luWPt+ewvy5wZGYK5YyX5riv6aaG6JePIDA3CuaWh+S5pi/oiLnmlL8v6buR55m957yW5Y+357C/LnBkZgrljJfmuK/ppobol48gMDcK5paH5LmmL+iIueaUvy/pu5Hnmb3nvJblj7fnsL8ucGRmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/文书/船政/黑白编号簿.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA3CuaWh+S5pi/oiLnmlL8v6buR55m957yW5Y+357C/LnBkZgrljJfmuK/ppobol48gMDcK5paH5LmmL+iIueaUvy/pu5Hnmb3nvJblj7fnsL8ucGRmCuWMl+a4r+mmhuiXjyAwNwrmlofkuaYv6Ii55pS/L+m7keeZvee8luWPt+ewvy5wZGYK5YyX5riv6aaG6JePIDA3CuaWh+S5pi/oiLnmlL8v6buR55m957yW5Y+357C/LnBkZgrljJfmuK/ppobol48gMDcK5paH5LmmL+iIueaUvy/pu5Hnmb3nvJblj7fnsL8ucGRmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/声音/验潮/声场记录.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA4CuWjsOmfsy/pqozmva4v5aOw5Zy66K6w5b2VLndhdgrljJfmuK/ppobol48gMDgK5aOw6Z+zL+mqjOa9ri/lo7DlnLrorrDlvZUud2F2Cg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/声音/验潮/声场记录.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA4CuWjsOmfsy/pqozmva4v5aOw5Zy66K6w5b2VLndhdgrljJfmuK/ppobol48gMDgK5aOw6Z+zL+mqjOa9ri/lo7DlnLrorrDlvZUud2F2Cg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/照片/内湾/仓门.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA5CueFp+eJhy/lhoXmub4v5LuT6ZeoLnRpZgrljJfmuK/ppobol48gMDkK54Wn54mHL+WGhea5vi/ku5Ppl6gudGlmCuWMl+a4r+mmhuiXjyAwOQrnhafniYcv5YaF5rm+L+S7k+mXqC50aWYK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/内湾/仓门.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDA5CueFp+eJhy/lhoXmub4v5LuT6ZeoLnRpZgrljJfmuK/ppobol48gMDkK54Wn54mHL+WGhea5vi/ku5Ppl6gudGlmCuWMl+a4r+mmhuiXjyAwOQrnhafniYcv5YaF5rm+L+S7k+mXqC50aWYK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/照片/内湾/旧路灯.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDEwCueFp+eJhy/lhoXmub4v5pen6Lev54GvLnRpZgrljJfmuK/ppobol48gMTAK54Wn54mHL+WGhea5vi/ml6fot6/nga8udGlmCuWMl+a4r+mmhuiXjyAxMArnhafniYcv5YaF5rm+L+aXp+i3r+eBry50aWYK5YyX5riv6aaG6JePIDEwCueFp+eJhy/lhoXmub4v5pen6Lev54GvLnRpZgo="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/内湾/旧路灯.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDEwCueFp+eJhy/lhoXmub4v5pen6Lev54GvLnRpZgrljJfmuK/ppobol48gMTAK54Wn54mHL+WGhea5vi/ml6fot6/nga8udGlmCuWMl+a4r+mmhuiXjyAxMArnhafniYcv5YaF5rm+L+aXp+i3r+eBry50aWYK5YyX5riv6aaG6JePIDEwCueFp+eJhy/lhoXmub4v5pen6Lev54GvLnRpZgo="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/图纸/风亭/机房侧视.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDExCuWbvue6uC/po47kuq0v5py65oi/5L6n6KeGLnRpZgrljJfmuK/ppobol48gMTEK5Zu+57q4L+mjjuS6rS/mnLrmiL/kvqfop4YudGlmCuWMl+a4r+mmhuiXjyAxMQrlm77nurgv6aOO5LqtL+acuuaIv+S+p+inhi50aWYK5YyX5riv6aaG6JePIDExCuWbvue6uC/po47kuq0v5py65oi/5L6n6KeGLnRpZgrljJfmuK/ppobol48gMTEK5Zu+57q4L+mjjuS6rS/mnLrmiL/kvqfop4YudGlmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/图纸/风亭/机房侧视.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDExCuWbvue6uC/po47kuq0v5py65oi/5L6n6KeGLnRpZgrljJfmuK/ppobol48gMTEK5Zu+57q4L+mjjuS6rS/mnLrmiL/kvqfop4YudGlmCuWMl+a4r+mmhuiXjyAxMQrlm77nurgv6aOO5LqtL+acuuaIv+S+p+inhi50aWYK5YyX5riv6aaG6JePIDExCuWbvue6uC/po47kuq0v5py65oi/5L6n6KeGLnRpZgrljJfmuK/ppobol48gMTEK5Zu+57q4L+mjjuS6rS/mnLrmiL/kvqfop4YudGlmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/图纸/风亭/潮位计拆解.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDEyCuWbvue6uC/po47kuq0v5r2u5L2N6K6h5ouG6KejLnRpZgrljJfmuK/ppobol48gMTIK5Zu+57q4L+mjjuS6rS/mva7kvY3orqHmi4bop6MudGlmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/图纸/风亭/潮位计拆解.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDEyCuWbvue6uC/po47kuq0v5r2u5L2N6K6h5ouG6KejLnRpZgrljJfmuK/ppobol48gMTIK5Zu+57q4L+mjjuS6rS/mva7kvY3orqHmi4bop6MudGlmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/目录/馆号索引.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDEzCuaWh+S5pi/nm67lvZUv6aaG5Y+357Si5byVLnBkZgrljJfmuK/ppobol48gMTMK5paH5LmmL+ebruW9lS/ppoblj7fntKLlvJUucGRmCuWMl+a4r+mmhuiXjyAxMwrmlofkuaYv55uu5b2VL+mmhuWPt+e0ouW8lS5wZGYK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/文书/目录/馆号索引.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDEzCuaWh+S5pi/nm67lvZUv6aaG5Y+357Si5byVLnBkZgrljJfmuK/ppobol48gMTMK5paH5LmmL+ebruW9lS/ppoblj7fntKLlvJUucGRmCuWMl+a4r+mmhuiXjyAxMwrmlofkuaYv55uu5b2VL+mmhuWPt+e0ouW8lS5wZGYK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/声音/旧航道/夜间信标.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE0CuWjsOmfsy/ml6foiKrpgZMv5aSc6Ze05L+h5qCHLndhdgrljJfmuK/ppobol48gMTQK5aOw6Z+zL+aXp+iIqumBky/lpJzpl7Tkv6HmoIcud2F2CuWMl+a4r+mmhuiXjyAxNArlo7Dpn7Mv5pen6Iiq6YGTL+WknOmXtOS/oeaghy53YXYK5YyX5riv6aaG6JePIDE0CuWjsOmfsy/ml6foiKrpgZMv5aSc6Ze05L+h5qCHLndhdgo="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/声音/旧航道/夜间信标.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE0CuWjsOmfsy/ml6foiKrpgZMv5aSc6Ze05L+h5qCHLndhdgrljJfmuK/ppobol48gMTQK5aOw6Z+zL+aXp+iIqumBky/lpJzpl7Tkv6HmoIcud2F2CuWMl+a4r+mmhuiXjyAxNArlo7Dpn7Mv5pen6Iiq6YGTL+WknOmXtOS/oeaghy53YXYK5YyX5riv6aaG6JePIDE0CuWjsOmfsy/ml6foiKrpgZMv5aSc6Ze05L+h5qCHLndhdgo="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/声音/旧航道/雾笛.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE1CuWjsOmfsy/ml6foiKrpgZMv6Zu+56ybLndhdgrljJfmuK/ppobol48gMTUK5aOw6Z+zL+aXp+iIqumBky/pm77nrJsud2F2CuWMl+a4r+mmhuiXjyAxNQrlo7Dpn7Mv5pen6Iiq6YGTL+mbvuesmy53YXYK5YyX5riv6aaG6JePIDE1CuWjsOmfsy/ml6foiKrpgZMv6Zu+56ybLndhdgrljJfmuK/ppobol48gMTUK5aOw6Z+zL+aXp+iIqumBky/pm77nrJsud2F2Cg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/声音/旧航道/雾笛.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE1CuWjsOmfsy/ml6foiKrpgZMv6Zu+56ybLndhdgrljJfmuK/ppobol48gMTUK5aOw6Z+zL+aXp+iIqumBky/pm77nrJsud2F2CuWMl+a4r+mmhuiXjyAxNQrlo7Dpn7Mv5pen6Iiq6YGTL+mbvuesmy53YXYK5YyX5riv6aaG6JePIDE1CuWjsOmfsy/ml6foiKrpgZMv6Zu+56ybLndhdgrljJfmuK/ppobol48gMTUK5aOw6Z+zL+aXp+iIqumBky/pm77nrJsud2F2Cg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/照片/内湾/干船坞.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE2CueFp+eJhy/lhoXmub4v5bmy6Ii55Z2eLnRpZgrljJfmuK/ppobol48gMTYK54Wn54mHL+WGhea5vi/lubLoiLnlnZ4udGlmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/内湾/干船坞.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE2CueFp+eJhy/lhoXmub4v5bmy6Ii55Z2eLnRpZgrljJfmuK/ppobol48gMTYK54Wn54mHL+WGhea5vi/lubLoiLnlnZ4udGlmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/冬港底片/绞盘.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE3CueFp+eJhy/lhqzmuK8v57ue55uYLnRpZgrljJfmuK/ppobol48gMTcK54Wn54mHL+WGrOa4ry/nu57nm5gudGlmCuWMl+a4r+mmhuiXjyAxNwrnhafniYcv5Yas5rivL+e7nuebmC50aWYK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/冬港/绞盘.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE3CueFp+eJhy/lhqzmuK8v57ue55uYLnRpZgrljJfmuK/ppobol48gMTcK54Wn54mHL+WGrOa4ry/nu57nm5gudGlmCuWMl+a4r+mmhuiXjyAxNwrnhafniYcv5Yas5rivL+e7nuebmC50aWYK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/目录/出借簿.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE4CuaWh+S5pi/nm67lvZUv5Ye65YCf57C/LnBkZgrljJfmuK/ppobol48gMTgK5paH5LmmL+ebruW9lS/lh7rlgJ/nsL8ucGRmCuWMl+a4r+mmhuiXjyAxOArmlofkuaYv55uu5b2VL+WHuuWAn+ewvy5wZGYK5YyX5riv6aaG6JePIDE4CuaWh+S5pi/nm67lvZUv5Ye65YCf57C/LnBkZgo="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/文书/目录/出借簿.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE4CuaWh+S5pi/nm67lvZUv5Ye65YCf57C/LnBkZgrljJfmuK/ppobol48gMTgK5paH5LmmL+ebruW9lS/lh7rlgJ/nsL8ucGRmCuWMl+a4r+mmhuiXjyAxOArmlofkuaYv55uu5b2VL+WHuuWAn+ewvy5wZGYK5YyX5riv6aaG6JePIDE4CuaWh+S5pi/nm67lvZUv5Ye65YCf57C/LnBkZgo="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/图纸/风亭/潮门分层.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE5CuWbvue6uC/po47kuq0v5r2u6Zeo5YiG5bGCLnRpZgrljJfmuK/ppobol48gMTkK5Zu+57q4L+mjjuS6rS/mva7pl6jliIblsYIudGlmCuWMl+a4r+mmhuiXjyAxOQrlm77nurgv6aOO5LqtL+a9rumXqOWIhuWxgi50aWYK5YyX5riv6aaG6JePIDE5CuWbvue6uC/po47kuq0v5r2u6Zeo5YiG5bGCLnRpZgrljJfmuK/ppobol48gMTkK5Zu+57q4L+mjjuS6rS/mva7pl6jliIblsYIudGlmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/图纸/风亭/潮门分层.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDE5CuWbvue6uC/po47kuq0v5r2u6Zeo5YiG5bGCLnRpZgrljJfmuK/ppobol48gMTkK5Zu+57q4L+mjjuS6rS/mva7pl6jliIblsYIudGlmCuWMl+a4r+mmhuiXjyAxOQrlm77nurgv6aOO5LqtL+a9rumXqOWIhuWxgi50aWYK5YyX5riv6aaG6JePIDE5CuWbvue6uC/po47kuq0v5r2u6Zeo5YiG5bGCLnRpZgrljJfmuK/ppobol48gMTkK5Zu+57q4L+mjjuS6rS/mva7pl6jliIblsYIudGlmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/船政/月度清册.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIwCuaWh+S5pi/oiLnmlL8v5pyI5bqm5riF5YaMLnBkZgrljJfmuK/ppobol48gMjAK5paH5LmmL+iIueaUvy/mnIjluqbmuIXlhowucGRmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/文书/船政/月度清册.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIwCuaWh+S5pi/oiLnmlL8v5pyI5bqm5riF5YaMLnBkZgrljJfmuK/ppobol48gMjAK5paH5LmmL+iIueaUvy/mnIjluqbmuIXlhowucGRmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/声音/旧航道/交接记录.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIxCuWjsOmfsy/ml6foiKrpgZMv5Lqk5o6l6K6w5b2VLndhdgrljJfmuK/ppobol48gMjEK5aOw6Z+zL+aXp+iIqumBky/kuqTmjqXorrDlvZUud2F2CuWMl+a4r+mmhuiXjyAyMQrlo7Dpn7Mv5pen6Iiq6YGTL+S6pOaOpeiusOW9lS53YXYK"
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/声音/旧航道/交接记录.wav",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIxCuWjsOmfsy/ml6foiKrpgZMv5Lqk5o6l6K6w5b2VLndhdgrljJfmuK/ppobol48gMjEK5aOw6Z+zL+aXp+iIqumBky/kuqTmjqXorrDlvZUud2F2CuWMl+a4r+mmhuiXjyAyMQrlo7Dpn7Mv5pen6Iiq6YGTL+S6pOaOpeiusOW9lS53YXYK"
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/图纸/风亭/港池平面.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIyCuWbvue6uC/po47kuq0v5riv5rGg5bmz6Z2iLnRpZgrljJfmuK/ppobol48gMjIK5Zu+57q4L+mjjuS6rS/muK/msaDlubPpnaIudGlmCuWMl+a4r+mmhuiXjyAyMgrlm77nurgv6aOO5LqtL+a4r+axoOW5s+mdoi50aWYK5YyX5riv6aaG6JePIDIyCuWbvue6uC/po47kuq0v5riv5rGg5bmz6Z2iLnRpZgo="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/图纸/风亭/港池平面.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIyCuWbvue6uC/po47kuq0v5riv5rGg5bmz6Z2iLnRpZgrljJfmuK/ppobol48gMjIK5Zu+57q4L+mjjuS6rS/muK/msaDlubPpnaIudGlmCuWMl+a4r+mmhuiXjyAyMgrlm77nurgv6aOO5LqtL+a4r+axoOW5s+mdoi50aWYK5YyX5riv6aaG6JePIDIyCuWbvue6uC/po47kuq0v5riv5rGg5bmz6Z2iLnRpZgo="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/北港/文书/目录/入馆核验.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIzCuaWh+S5pi/nm67lvZUv5YWl6aaG5qC46aqMLnBkZgrljJfmuK/ppobol48gMjMK5paH5LmmL+ebruW9lS/lhaXppobmoLjpqowucGRmCuWMl+a4r+mmhuiXjyAyMwrmlofkuaYv55uu5b2VL+WFpemmhuaguOmqjC5wZGYK5YyX5riv6aaG6JePIDIzCuaWh+S5pi/nm67lvZUv5YWl6aaG5qC46aqMLnBkZgrljJfmuK/ppobol48gMjMK5paH5LmmL+ebruW9lS/lhaXppobmoLjpqowucGRmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/文书/目录/入馆核验.pdf",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDIzCuaWh+S5pi/nm67lvZUv5YWl6aaG5qC46aqMLnBkZgrljJfmuK/ppobol48gMjMK5paH5LmmL+ebruW9lS/lhaXppobmoLjpqowucGRmCuWMl+a4r+mmhuiXjyAyMwrmlofkuaYv55uu5b2VL+WFpemmhuaguOmqjC5wZGYK5YyX5riv6aaG6JePIDIzCuaWh+S5pi/nm67lvZUv5YWl6aaG5qC46aqMLnBkZgrljJfmuK/ppobol48gMjMK5paH5LmmL+ebruW9lS/lhaXppobmoLjpqowucGRmCg=="
+    },
+    {
+      "tier": "online",
+      "path": "阅览池/冬港底片/救生梯.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDI0CueFp+eJhy/lhqzmuK8v5pWR55Sf5qKvLnRpZgrljJfmuK/ppobol48gMjQK54Wn54mHL+WGrOa4ry/mlZHnlJ/moq8udGlmCg=="
+    },
+    {
+      "tier": "vault",
+      "path": "永久库/磁带-02/照片/冬港/救生梯.tif",
+      "observed": "2026-11-20T16:00:00+08:00",
+      "data_b64": "5YyX5riv6aaG6JePIDI0CueFp+eJhy/lhqzmuK8v5pWR55Sf5qKvLnRpZgrljJfmuK/ppobol48gMjQK54Wn54mHL+WGrOa4ry/mlZHnlJ/moq8udGlmCg=="
+    }
+  ]
+}

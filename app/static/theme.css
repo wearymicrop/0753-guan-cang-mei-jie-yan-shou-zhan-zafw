@@ -1,0 +1,8 @@
+:root {
+ color-scheme:dark;--bg:#15151c;--binder:#101016;--surface:#1e1e28;--pressed:#2b2230;
+ --rule:#3b3948;--rule-hot:#68405f;--ink:#f3ebf7;--mute:#b6a9c0;--quiet:#9c8da9;
+ --accent:#e769bc;--accent-shadow:#a13c80;--accent-ink:#1b1020;--verified:#76d3b0;
+ --pending:#edbe75;--conflict:#ff929f;--empty:#a99bb6;--row:29px;--margin:12px;
+ --face:"PingFang SC","Microsoft YaHei",sans-serif;--code:ui-monospace,Monaco,monospace;
+ --outline:1px solid var(--rule);--offset:3px;--binder-width:186px;
+}
